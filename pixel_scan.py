@@ -54,8 +54,8 @@ def next_colour(pix):
 
 
 while True:
-    for pix in pixelFrame:
+    for pix in pixels:
         next_colour(pix)
 
-    sense.set_pixels(pixelFrame)
+    sense.set_pixels(pixels)
     msleep(2)
